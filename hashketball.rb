@@ -192,7 +192,7 @@ end
 
 #returns all stats for a given player
 def player_stats(player_name)
-  
+  game_hash.each do |location, team_hash|
 end
 
 #returns the number of rebounds of the player 
