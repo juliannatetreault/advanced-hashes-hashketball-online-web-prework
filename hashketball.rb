@@ -179,6 +179,8 @@ def player_numbers(team_name)
         if players == :players
           data.each do |player, stats|
             stats[:number].to_i
+          end
+        end
       end
     end
   end
