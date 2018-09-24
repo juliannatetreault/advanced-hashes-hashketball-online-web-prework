@@ -201,7 +201,7 @@ def player_stats(player_name)
           #binding.pry
           if player == player_name
             return stats#(&:values.to_i)
-          end.to_i
+          end
         end
       end
     end
