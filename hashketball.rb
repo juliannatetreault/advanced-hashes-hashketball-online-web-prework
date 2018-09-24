@@ -196,6 +196,8 @@ def player_stats(player_name)
     team_hash.each do |players, data|
       if players == :players
         data.each do |player, stats|
+          if player == player_name
+            stats
 end
 
 #returns the number of rebounds of the player 
