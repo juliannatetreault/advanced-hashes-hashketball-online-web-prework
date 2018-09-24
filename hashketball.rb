@@ -200,7 +200,7 @@ def player_stats(player_name)
         data.each do |player, stats|
           #binding.pry
           if player == player_name
-            stats.to_i
+            stats.to_s
             return stats
           end
         end
