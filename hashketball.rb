@@ -212,7 +212,7 @@ end
 #with the biggest shoe size
 def big_shoe_rebounds
   game_hash.each do |location, team_hash|
-    team_hash.each do ||
+    team_hash.each do |players, data|
           end
         end
       end
