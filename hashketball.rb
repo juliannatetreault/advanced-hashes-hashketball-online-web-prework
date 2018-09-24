@@ -180,6 +180,7 @@ def player_numbers(team_name)
         if players == :players
           #binding.pry
           data.each do |player, stats|
+            #binding.pry
             numbers << stats[:number].to_i
           end
         end
