@@ -181,7 +181,7 @@ def player_numbers(team_name)
           #binding.pry
           data.each do |player, stats|
             #binding.pry
-            numbers << stats[:number].to_i
+            numbers << stats[:number]
           end
         end
       end
