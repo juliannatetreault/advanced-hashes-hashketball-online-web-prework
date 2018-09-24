@@ -225,6 +225,7 @@ def big_shoe_rebounds
       end
     end
   end
+  number_of_rebounds
 end
 
 
