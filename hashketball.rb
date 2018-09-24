@@ -194,7 +194,7 @@ end
 def player_stats(player_name)
   game_hash.each do |location, team_hash|
     team_hash.each do |players, data|
-      if players == player_name
+      if players == :players
 end
 
 #returns the number of rebounds of the player 
