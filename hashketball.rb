@@ -127,7 +127,7 @@ def num_points_scored(player_name)
         data.each do |player, stats|
           #binding.pry
           if player == player_name
-            return stats[:points].to_i
+            return stats[:points]
           end  
         end
       end
@@ -144,7 +144,7 @@ def shoe_size(player_name)
         data.each do |player, stats|
           #binding.pry
           if player == player_name
-            return stats[:shoe].to_i
+            return stats[:shoe]
           end
         end
       end
