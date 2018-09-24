@@ -183,6 +183,7 @@ def player_numbers(team_name)
         #end
       #end
     #end
+    game_hash.collect do |location, team_data|
   end
 end
 
