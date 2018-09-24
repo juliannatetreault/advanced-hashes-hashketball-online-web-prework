@@ -188,6 +188,7 @@ def player_numbers(team_name)
         return team_data[:points]
   end
 end
+end
 
 #returns all stats for a given player
 def player_stats(player_name)
