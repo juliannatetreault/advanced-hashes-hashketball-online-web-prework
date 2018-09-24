@@ -216,7 +216,8 @@ def big_shoe_rebounds
       if players == :players
         data.each do |player, stats|
           if stats[:shoe] == 12
-            
+            stats[:shoe]
+            stats[:rebounds]
           end
         end
       end
