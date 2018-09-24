@@ -198,7 +198,7 @@ def player_stats(player_name)
       #binding.pry
       if players == :players
         data.each do |player, stats|
-          binding.pry
+          #binding.pry
           if player == player_name
             stats
           end
