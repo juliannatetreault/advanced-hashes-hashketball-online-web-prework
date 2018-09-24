@@ -215,6 +215,7 @@ def big_shoe_rebounds
     team_hash.each do |players, data|
       if players == :players
         data.each do |player, stats|
+          if stats[:shoe]
           end
         end
       end
