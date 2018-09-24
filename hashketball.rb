@@ -200,7 +200,7 @@ def player_stats(player_name)
         data.each do |player, stats|
           #binding.pry
           if player == player_name
-            return stats#(&:values.to_i)
+            return stats(&:values.to_i)
           end
         end
       end
@@ -211,7 +211,7 @@ end
 #returns the number of rebounds of the player 
 #with the biggest shoe size
 def big_shoe_rebounds
-  
+  game_hash.each do |location, team_hash|
           end
         end
       end
