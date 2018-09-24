@@ -197,7 +197,7 @@ def player_stats(player_name)
     team_hash.each do |players, data|
       #binding.pry
       if players == :players
-        data.each do |player, stats|
+        data.each do |player, stats.to_i|
           #binding.pry
           if player == player_name
             return stats
