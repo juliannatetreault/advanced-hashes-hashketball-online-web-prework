@@ -193,6 +193,7 @@ end
 #returns all stats for a given player
 def player_stats(player_name)
   game_hash.each do |location, team_hash|
+    #binding.pry
     team_hash.each do |players, data|
       if players == :players
         data.each do |player, stats|
