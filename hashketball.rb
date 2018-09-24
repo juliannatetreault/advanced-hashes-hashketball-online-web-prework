@@ -172,13 +172,14 @@ end
 
 #returns the player jersey numbers
 def player_numbers(team_name)
+  numbers = []
   game_hash.each do |location, team_hash|
     #binding.pry
     if team_hash[:team_name] == team_name
       team_hash.each do |players, data|
         if players == :players
           data.each do |player, stats|
-            stats[:number]
+            numbers << stats[:number]
           end
         end
       end
