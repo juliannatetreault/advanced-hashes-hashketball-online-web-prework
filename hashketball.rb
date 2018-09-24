@@ -198,6 +198,11 @@ def player_stats(player_name)
         data.each do |player, stats|
           if player == player_name
             stats
+          end
+        end
+      end
+    end
+  end
 end
 
 #returns the number of rebounds of the player 
